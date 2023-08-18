@@ -1,17 +1,58 @@
 cursor: {pointer;}
 
+.main-header-menu-link {font-family: Roboto;
+    font-weight: 500;
+    line-height: 150%;
+    color: var(--navyblue, #2e2f42);}
+
+.main-header-menu-item-tel,
+.main-header-menu-item-email {font-family: Roboto;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 150%;
+    color: var(--slate, #434455);
+    text-decoration: none;}
+
 .hero 
         {background: var(--navyblue, #2E2F42);
                 line-height: 
                 107.143%;
-                text-align: center;
                 color: var(--white, #FFF);
      }
 
-.hero .order-button {border-radius: 4px;
-        background: var(--iris, #4D5AE5);}
-       
+.hero-heading-title {font-family: Roboto;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 107.143%;
+    letter-spacing: 1.12px;
+text-align: center;}
 
+.hero .order-button {border-radius: 4px;
+        background: var(--iris, #4D5AE5); color: var(--white, #fff);
+            font-family: Roboto;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            
+        }
+
+.features > p {font-family: Roboto;
+    font-weight: 400;}
+
+    .features-title  {font-family: Roboto;
+        font-weight: 700; text-align: center;
+        }
+
+        .team {font-family: Roboto;
+            font-weight: 500;
+            text-align: center;}
+
+            .work-description {
+                    font-family: Roboto;
+                    font-weight: 400;
+                    text-align: center;
+                }
 a:link {
     text-decoration: none;
 }
