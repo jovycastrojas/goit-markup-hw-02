@@ -1,91 +1,129 @@
-cursor: {pointer;}
-
-.main-header-menu-link {font-family: Roboto;
-    font-weight: 500;
-    line-height: 150%;
-    color: var(--navyblue, #2e2f42);}
-
-.main-header-menu-item-tel,
-.main-header-menu-item-email {font-family: Roboto;
-    font-weight: 400;
-    font-style: normal;
-    line-height: 150%;
-    color: var(--slate, #434455);
-    text-decoration: none;}
-
-.hero 
-        {background: var(--navyblue, #2E2F42);
-                line-height: 
-                107.143%;
-                color: var(--white, #FFF);
-     }
-
-.hero-heading-title {font-family: Roboto;
-    font-size: 56px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 107.143%;
-    letter-spacing: 1.12px;
-text-align: center;}
-
-.hero .order-button {border-radius: 4px;
-        background: var(--iris, #4D5AE5); color: var(--white, #fff);
-            font-family: Roboto;
-            font-size: 16px;
-            font-style: normal;
-            font-weight: 500;
-            
-        }
-
-.features > p {font-family: Roboto;
-    font-weight: 400;}
-
-    .features-title  {font-family: Roboto;
-        font-weight: 700; text-align: center;
-        }
-
-        .team {font-family: Roboto;
-            font-weight: 500;
-            text-align: center;}
-
-            .work-description {
-                    font-family: Roboto;
-                    font-weight: 400;
-                    text-align: center;
-                }
-a:link {
-    text-decoration: none;
+:root {
+  --iris: #4d5ae5;
+  --navyblue: #2e2f42;
+  --black: black;
+  --ocean: #404bbf;
+  --white: white;
+  --slate: #434455;
+  --cornflower: #e7e9fc;
+  --cloud: #f4f4fd;
+  --green: #31d0aa;
+  --lightslate: #8e8f99;
+  --navybluemodal: #2e2f42;
+  --grey: grey;
+  --dairy: #fcfcfc;
 }
 
-.studio-1 {color: var(--navyblue, #2E2F42);}
-.studio-2 {color: var(--cloud, #F4F4FD);}
+.nav-link {
+  font-family: Roboto;
+  font-weight: 500;
+  line-height: 150%;
+  color: rgba(46, 47, 66, 1);
+}
 
-ul {list-style-type: none;}
+.address-link {
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 150%;
+  color: rgba(67, 68, 85, 1);
+}
 
-.button1 {color: var(--white, #FFF);
-        background: var(--ocean, #404BBF); line-height: 150%; }
+.hero {
+  background: rgba(46, 47, 66, 1);
+  line-height: 107.143%;
+  color: rgba(255, 255, 255, 1);
+}
 
-.button2 { color: var(--iris, #4D5AE5); background: var(--cloud, #F4F4FD); border-radius: 4px;
-    border: 1px solid var(--cornflower, #E7E9FC); line-height: 150%; }
+.hero-title {
+  font-family: Roboto;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 107.143%;
+  letter-spacing: 1.12px;
+  text-align: center;
+}
 
-.button3 {color: var(--iris, #4D5AE5); background: var(--cloud, #F4F4FD); border-radius: 4px;
-    border: 1px solid var(--cornflower, #E7E9FC); line-height: 150%;}
+.hero-button {
+  border-radius: 4px;
+  background: var(--iris);
+  color: rgba(255, 255, 255, 1);
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+}
 
-.button4 {
-        color: var(--iris, #4D5AE5); background: var(--cloud, #F4F4FD) border-radius: 4px;
-            border: 1px solid var(--cornflower, #E7E9FC); line-height: 150%;
-    }
+.features-item-description {
+  font-family: Roboto;
+  font-weight: 400;
+}
 
-.button5{color: var(--iris, #4D5AE5); background: var(--cloud, #F4F4FD); border-radius: 4px;
-    border: 1px solid var(--cornflower, #E7E9FC); line-height: 150%;}
+.features-item-title {
+  font-family: Roboto;
+  font-weight: 700;
+}
 
+.services-title,
+.team-title {
+  font-family: Roboto;
+  font-weight: 700;
+  text-align: center;
+}
+
+.team-item-title {
+  font-family: Roboto;
+  font-weight: 500;
+  text-align: center;
+}
+
+.team-work-description {
+  font-family: Roboto;
+  font-weight: 400;
+  text-align: center;
+}
+a:link {
+  text-decoration: none;
+}
+
+.nav-logo {
+  font-family: Raleway;
+  font-weight: 800;
+  line-height: 116.667%;
+}
+
+.iris {
+  color: rgba(77, 90, 229, 1);
+}
+.studio-2 {
+  color: rgba(244, 244, 253, 1);
+}
+
+ul {
+  list-style-type: none;
+}
+
+.all-button {
+  color: rgba(255, 255, 255, 1);
+  background: rgba(64, 75, 191, 1);
+  line-height: 150%;
+}
+
+.portfolio-button {
+  color: rgba(77, 90, 229, 1);
+  background: rgba(244, 244, 253, 1);
+  border-radius: 4px;
+  border: 1px solid rgba(231, 233, 252, 1);
+  line-height: 150%;
+}
 
 body {
-    font-family: Roboto;
+  font-family: Roboto;
 }
 
-section .app {line-height: 120%;}
+.footer {
+  background: rgba(46, 47, 66, 1);
+}
 
-section >p {line-height: 150%;}
-
-footer {background: var(--navyblue, #2E2F42); }
+.cloud,
+.footer-description {
+  color: #f4f4fd;
+}
