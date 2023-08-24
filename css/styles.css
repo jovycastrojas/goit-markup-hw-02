@@ -18,11 +18,14 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+address {
+  font-style: normal;
+}
+
 .address-item:hover {
   line-height: 150%;
   font-size: 16px;
   letter-spacing: 0.32px;
-  font-style: normal;
 }
 
 /* unvisited link */
@@ -36,7 +39,6 @@ body {
   line-height: 150%;
   font-size: 16px;
   letter-spacing: 0.32px;
-  font-style: normal;
 }
 
 /* unvisited link */
