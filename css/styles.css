@@ -187,7 +187,8 @@ header .studio {
 
 /* PORTFOLIO SECTION*/
 
-.portfolio-button:hover {
+.portfolio-button:hover,
+.portfolio-button:focus {
   color: var(--white);
   background: var(--ocean);
 }
