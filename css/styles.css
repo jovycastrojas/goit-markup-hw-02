@@ -76,6 +76,10 @@ a {
   text-transform: uppercase;
 }
 
+button {
+  cursor: pointer;
+}
+
 /* END OF GENERAL STYLES */
 
 /* HEADER SECTION */
@@ -144,8 +148,9 @@ header .studio {
 
 .hero-button:hover,
 .hero-button:focus {
-  box-shadow: 0px 4px 4px 0px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   background: var(--ocean);
+  cursor: pointer;
 }
 
 /* FEATURES SECTION */
@@ -196,6 +201,9 @@ header .studio {
 .portfolio-button:focus {
   color: var(--white);
   background: var(--ocean);
+  border-color: var(--ocean);
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
+    0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
 }
 
 .portfolio-button {
@@ -208,7 +216,6 @@ header .studio {
   background: var(--cloud);
   font-family: inherit;
   outline: none;
-  border: unset;
   padding: 12px 24px;
 }
 
